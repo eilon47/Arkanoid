@@ -1,0 +1,105 @@
+
+# Level 1
+# Colors
+
+
+START_LEVEL
+level_name: Colors
+ball_velocities:50,500 75,500 100,500  
+background:image(background_images/chalks.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/standard_block2_definitions.txt
+blocks_start_x:25
+blocks_start_y:60
+row_height:25
+num_blocks:91
+START_BLOCKS
+eeeeeeeeeeeeeee
+-
+yo
+yoc
+yocg
+yocgr
+yocgrb
+yocgrbp
+yocgrbpy
+yocgrbpyo
+yocgrbpyoc
+yocgrbpyocg
+GGGGGGGGGGG
+
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Bug.
+
+
+START_LEVEL
+level_name: Huge Bug
+ball_velocities:45,500 300,500
+background:color(black)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/bug_block_definitions.txt
+blocks_start_x:60
+blocks_start_y:80
+row_height:20
+num_blocks:67
+START_BLOCKS
+---o---o
+----o-o-
+----o-o
+---ggggg
+---ggggg
+--ggrgrgg
+--ggrgrgg
+-ggggggggg
+-ggggggggg
+-g-ggggg-g
+-g-g---g-g
+-g-g---g-g
+----g-g---
+----g-g
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# Urban
+
+START_LEVEL
+level_name: Turn Off All Lights
+ball_velocities:-60,500 -45,500 -30,500 -15,500 15,500 30,500 45,500 60,500
+background:image(background_images/urban.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/urban_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:50
+row_height:20
+num_blocks:180
+START_BLOCKS
+
+-bbb--bbb--bbb--bbb
+-byb--byb--byb--byb
+-bbb--bbb--bbb--bbb
+-bbb--bbb--bbb--bbb
+-byb--byb--byb--byb
+-bbb--bbb--bbb--bbb
+-bbb--bbb--bbb--bbb
+-byb--byb--byb--byb
+-bbb--bbb--bbb--bbb
+-bbb--bbb--bbb--bbb
+-byb--byb--byb--byb
+-bbb--bbb--bbb--bbb
+-bbb--bbb--bbb--bbb
+-byb--byb--byb--byb
+-bbb--bbb--bbb--bbb
+
+
+
+END_BLOCKS
+END_LEVEL
